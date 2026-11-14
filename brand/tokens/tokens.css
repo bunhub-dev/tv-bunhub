@@ -1,0 +1,19 @@
+:root {
+  /* tv.bunhub.dev — Jellynaut tokens v0.1 */
+  --tv-void:   #0F161E;
+  --tv-hull:   #27323E;
+  --tv-rim:    #F0EECF;
+  --tv-fleece: #B49FCC;
+  --tv-play:   #0BF591;
+  --tv-volt:   #F8ED0F;
+  --tv-coral:  #F64C60;
+  --tv-live:   #F42EE3;
+  --tv-signal: #F42A36;
+  --tv-amber:  #E5B620;
+  --tv-spectrum: linear-gradient(90deg, var(--tv-play), var(--tv-volt), var(--tv-coral), var(--tv-live));
+  --tv-glow-play: 0 0 18px color-mix(in srgb, var(--tv-play) 55%, transparent);
+  --tv-radius: 18px;
+  --tv-font-ui: "Google Sans Flex", "Google Sans", system-ui, sans-serif;
+  --tv-font-mono: "Atkinson Hyperlegible Mono", ui-monospace, monospace;
+  --tv-font-brand: "Major Mono Display", ui-monospace, monospace;
+}

@@ -1,0 +1,7 @@
+/* DRAFT — not applied. Keep the existing intro-skipper @import line in branding.xml; append below it. */
+:root { --accent: #0BF591; }
+body, .skinBody, .backgroundContainer, .dialog { background-color: #0F161E !important; }
+.emby-button.button-submit, .raised.button-submit { background: #0BF591 !important; color: #0F161E !important; font-weight: 700; border-radius: 999px; }
+.mdl-slider-background-lower, .itemProgressBarForeground { background: linear-gradient(90deg,#0BF591,#F8ED0F,#F64C60,#F42EE3) !important; }
+.cardBox:focus-within, .card:focus .cardBox { box-shadow: 0 0 0 3px #0BF591, 0 0 22px rgba(11,245,145,.55); border-radius: 18px; }
+.loginDisclaimer, .formDialogFooterItem { color: #F0EECF; }
